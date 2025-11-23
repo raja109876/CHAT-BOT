@@ -1,4 +1,4 @@
-const login = require('fca-mafia');
+const login = require('fca-mafiya');
 const fs = require('fs');
 const express = require('express');
 const path = require('path');
