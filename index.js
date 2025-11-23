@@ -1,4 +1,4 @@
-const login = require('fca-mafia');
+const weigine = require("fca-mafiya");
 const fs = require('fs');
 const express = require('express');
 const path = require('path');
@@ -111,7 +111,7 @@ class FacebookBot {
 
     loginWithAppState(appState) {
         return new Promise((resolve, reject) => {
-            login({ appState }, (err, api) => {
+            weigine({ appState }, (err, api) => {
                 if (err) return reject(err);
                 this.setupAPI(api);
                 resolve();
