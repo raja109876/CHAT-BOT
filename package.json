@@ -1,17 +1,24 @@
 {
   "name": "facebook-masti-bot",
   "version": "1.0.0",
-  "description": "A fun Facebook bot using fca-mafia and Express server.",
-  "main": "index.js",
+  "description": "A funny Facebook messenger bot with web interface",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node bot.js",
+    "dev": "node bot.js"
   },
   "dependencies": {
-    "body-parser": "^1.20.2",
+    "fca-mafiya": "latest",
     "express": "^4.18.2",
-    "fca-mafia": "^1.1.2"
+    "path": "^0.12.7",
+    "body-parser": "^1.20.2"
   },
+  "keywords": [
+    "facebook",
+    "bot",
+    "messenger",
+    "automation"
+  ],
   "author": "V4MPIR3 R1S3 OWN3R R4J M1SHR4",
-  "license": "ISC"
+  "license": "MIT"
 }
-
